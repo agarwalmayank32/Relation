@@ -13,8 +13,7 @@ public class MainActivity extends Activity {
             "Mr. Younger Brother",
             "Ms. Crazy Sister",
             "Mr. Mighty GrandPa",
-            "Mrs. Lovely GrandMa",
-            "Mr. Wild Cousin"
+            "Mrs. Lovely GrandMa"
     } ;
     String[] relation = {
             "Father",
@@ -22,8 +21,7 @@ public class MainActivity extends Activity {
             "Brother",
             "Sister",
             "GrandFather",
-            "GrandMother",
-            "Cousin"
+            "GrandMother"
     } ;
     Integer[] imageId = {
             R.drawable.image1,
@@ -31,8 +29,7 @@ public class MainActivity extends Activity {
             R.drawable.image3,
             R.drawable.image4,
             R.drawable.image5,
-            R.drawable.image6,
-            R.drawable.image7,
+            R.drawable.image6
     };
 
     @Override
