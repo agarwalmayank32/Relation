@@ -32,7 +32,6 @@ public class CustomList extends ArrayAdapter<String> {
         this.imageids=imageids;
         Firebase.setAndroidContext(getContext());
         firebase = new Firebase("https://relationalmanac1.firebaseio.com/");
-
     }
     @Override
     public View getView(final int position, View view, ViewGroup parent) {
