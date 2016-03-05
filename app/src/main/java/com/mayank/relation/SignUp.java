@@ -41,7 +41,6 @@ public class SignUp extends Activity {
             }
         });
     }
-
     public void onClick5(View view)
     {
         Intent g=new Intent(this,LoginActivity.class);
