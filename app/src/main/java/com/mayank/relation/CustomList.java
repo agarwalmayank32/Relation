@@ -54,7 +54,6 @@ public class CustomList extends ArrayAdapter<String> {
                 txtrelation.setText(String.valueOf(dataSnapshot.child(String.valueOf(position)).child("Relation").getValue()));
                 Picasso.with(getContext()).load(String.valueOf(dataSnapshot.child(String.valueOf(position)).child("ImageUrl").getValue()))
                         .into(imageView);
-
             }
 
             @Override
